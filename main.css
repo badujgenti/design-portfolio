@@ -187,8 +187,7 @@ h1{
 .image{
     height: 180px;
     width: 270px;
-    left: 570px;
-    top: 62px;
+ 
     border-radius: 10px;
     background: #D8D8D8;
     border-radius: 10px;
@@ -199,6 +198,7 @@ h1{
     justify-content: center;
     margin-bottom: 100px;
     margin-top: 32px;
+    column-gap: 16px;
 }
 #left-arrow{
     height: 64px;
@@ -231,4 +231,151 @@ justify-content: center;
     scroll-behavior: smooth;
     padding: 0px 15px 0px 15px;
     
+}
+.creamy{
+   color: #FFF7F0;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .full-box{
+        padding: 34px 40px 56px 40px ;
+    }
+    .purple-box{
+        height: 364px;
+        width: 333px;
+        left: 0px;
+        top: 0px;
+        border-radius: 8px;
+        margin: 0px;
+        margin-top: 100px;
+    }
+    .pink-box{
+        width: 155px;
+    }
+    .orange-box{
+        width: 155px;
+    }
+    .green-box{
+        width: 333px;
+    }
+    .grape-box{
+        width: 333px;
+    }
+    .red-box{
+        width: 333px;
+    }
+    .flex1{
+        display: flex;
+        column-gap: 24px;
+    }
+    .margin-top{
+        margin-top: 100px;
+    }
+    .about-amy{
+        height: 364px;
+    width: 339px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: baseline;
+    }
+    .image-amy{
+        height: 364px;
+        width: 364px;
+        transform: translate(-66px, 0px);
+    }
+    .pink{
+        margin: 0px;
+        margin-top: 24px;
+    }
+    
+    .align{
+        text-align: left;
+    }
+    .image{
+        height: 360px;
+        width: 540px;
+    }
+    .images{
+        margin-bottom: 56px;
+    }
+    .black-box{
+        height: 352px;
+        width: 690px;
+        border-radius: 10px;
+        padding: 54px 75px 75px 75px;
+
+    }
+    h1{
+        margin-top: 64px;
+    }
+
+}
+@media only screen and (min-width : 1024px){
+    .full-box{
+        padding: 34px 165px 68px 165px;
+    }
+    .colored-boxes{
+        display: flex;
+    }
+    .flex2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+    .grape-box{
+        height: 158px;
+        width: 354px;
+
+        border-radius: 8px;
+
+    }
+    .green-box{
+        height: 182px;
+width: 354px;
+left: 0px;
+top: 0px;
+border-radius: 8px;
+
+    }
+    .image-amy{
+        transform: translate(-161px, 0px);
+    }
+    .consultation:hover{
+        background: #755CDE;
+        cursor: pointer;
+    }
+    #left-arrow:hover{
+        background: #755CDE;
+        cursor: pointer;
+    }
+    #right-arrow:hover{
+        background: #755CDE;
+        cursor: pointer;
+    }
+    .black-box{
+        height: 320px;
+        width: 1110px;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+
+    }
+    .black-box-quote{
+        height: 84px;
+width: 540px;
+left: 0px;
+top: 75px;
+border-radius: nullpx;
+
+
+    }
+
+
+
+
+
+
+
 }

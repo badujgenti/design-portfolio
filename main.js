@@ -45,15 +45,3 @@ rightArrow.addEventListener("click", function(){
 
 
 
-// $('.owl-ima').owlCarousel(
-//     {
-//         lazyLoad:true,
-//         items:1,
-//         autoplay: true,
-//         smartSpeed: 1500,
-//         nav:false,
-//         dots: true,
-//         loop : true,
-//         animateOut: "fadeOut"
-//       }
-//     );
